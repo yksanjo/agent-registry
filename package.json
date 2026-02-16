@@ -1,0 +1,16 @@
+{
+  "name": "agent-registry",
+  "version": "1.0.0",
+  "description": "Agent Registry & Discovery - Service registry with health checks",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "example": "ts-node examples/index.ts"
+  },
+  "keywords": ["registry", "discovery", "service", "agent"],
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.2"
+  }
+}
